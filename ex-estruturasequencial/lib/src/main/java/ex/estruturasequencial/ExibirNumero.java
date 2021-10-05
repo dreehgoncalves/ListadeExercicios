@@ -6,9 +6,9 @@ public class ExibirNumero {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Informe um numero:");
+		System.out.printf("Informe um numero:\n");
 		int n1 = Console.readInt();
-		System.out.println("O número informado foi " + n1);
+		System.out.printf("O número informado foi %d", n1);
 	}
 
 }

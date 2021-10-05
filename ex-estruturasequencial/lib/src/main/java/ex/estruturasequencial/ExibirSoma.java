@@ -6,14 +6,14 @@ public class ExibirSoma {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Número 1:");
+		System.out.printf("Número 1:\n");
 		int n1 = Console.readInt();
 
-		System.out.println("Número 2:");
+		System.out.printf("Número 2:\n");
 		int n2 = Console.readInt();
 		
 		int soma = n1 + n2;
-		System.out.println("A soma dos numeros informados é: " + soma);
+		System.out.printf("A soma dos numeros informados é: %d", soma);
 		
 		
 	}

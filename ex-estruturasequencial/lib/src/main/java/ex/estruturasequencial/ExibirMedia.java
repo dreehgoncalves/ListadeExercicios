@@ -5,20 +5,20 @@ public class ExibirMedia {
 
 	public static void main(String[] args) {
 		
-			System.out.println("Informe a primeira nota:");
+			System.out.printf("Informe a primeira nota:\n");
 			int nota1 = Console.readInt();
 
-			System.out.println("Informe a segunda nota:");
+			System.out.printf("Informe a segunda nota:\n");
 			int nota2 = Console.readInt();
 			
-			System.out.println("Informe a terceira nota:");
+			System.out.printf("Informe a terceira nota:\n");
 			int nota3 = Console.readInt();
 			
-			System.out.println("Informe a quarta nota:");
+			System.out.printf("Informe a quarta nota:\n");
 			int nota4 = Console.readInt();
 
 			int media = (nota1 + nota2 + nota3 + nota4) / 4;
-			System.out.println("A media é: " + media);
+			System.out.printf("A media é: %d", media);
 			
 			
 		}
