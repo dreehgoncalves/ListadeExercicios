@@ -7,21 +7,21 @@ import javax.swing.JOptionPane;
 public class CalculePesoIdeal {
 
 	public static void main(String[] args) {
-		
+		//Exercicios 12 e 13
 		String alt = JOptionPane.showInputDialog("Informe a altura:");
 		double altura = Double.parseDouble(alt);
 		
-		String i  = JOptionPane.showInputDialog("Digite qual opção desejada:  \n 1-Homem: \n 2-Mulher:");
+		String i  = JOptionPane.showInputDialog("Digite qual opção desejada:  \n 1-Homem 2-Mulher");
 		int HouM = Integer.parseInt(i);
 		
 		double peso_ideal;
 		
 		if(HouM == 1) {
 			peso_ideal = (72.7 * altura) - 58;
-			JOptionPane.showMessageDialog(null, "O seu peso ideal e: " + peso_ideal);
+			JOptionPane.showMessageDialog(null, String.format("O seu peso ideal e: %.2f kg", peso_ideal));
 		} else {
 			peso_ideal = (62.1 * altura) - 44.7;
-			JOptionPane.showMessageDialog(null, "O seu peso ideal e: " + peso_ideal);
+			JOptionPane.showMessageDialog(null, String.format("O seu peso ideal e: %.2f kg", peso_ideal));
 		}
 	}
 
