@@ -11,7 +11,7 @@ public class CalculePesoIdeal {
 		String alt = JOptionPane.showInputDialog("Informe a altura:");
 		double altura = Double.parseDouble(alt);
 		
-		String i  = JOptionPane.showInputDialog("Digite qual opção desejada:  \n 1-Homem 2-Mulher");
+		String i  = JOptionPane.showInputDialog("Digite qual opção desejada:\n 1-Homem 2-Mulher");
 		int HouM = Integer.parseInt(i);
 		
 		double peso_ideal;
