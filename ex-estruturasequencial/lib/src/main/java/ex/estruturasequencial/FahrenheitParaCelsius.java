@@ -8,7 +8,7 @@ public class FahrenheitParaCelsius {
 		System.out.printf("Informe a temperatura em Fahrenheit:\n");
 		double F = Console.readDouble();
 
-		double C = 5 * ((F-32) / 9);
+		double C = (F-32) / 1.8;
 		System.out.printf("A temperatura em Celsius e: %.2f", C);
 
 	}
