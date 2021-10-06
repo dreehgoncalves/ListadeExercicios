@@ -14,7 +14,7 @@ public class ExibirMultaExcesso {
 		
 		if(peso_dia > 50) {
 			multa = excesso * 4;
-			JOptionPane.showMessageDialog(null, String.format("Sua multa sera de: R$ %.2f", multa));
+			JOptionPane.showMessageDialog(null, String.format("Sua multa sera de: R$ " + multa));
 		} else {
 			JOptionPane.showMessageDialog(null, "Não sera necessario pagar multas");
 		}
