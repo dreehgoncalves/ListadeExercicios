@@ -14,7 +14,7 @@ public class CalculePesoIdeal {
 		String i  = JOptionPane.showInputDialog("Digite qual opção desejada:  \n 1-Homem: \n 2-Mulher:");
 		int HouM = Integer.parseInt(i);
 		
-		double peso_ideal
+		double peso_ideal;
 		
 		if(HouM == 1) {
 			peso_ideal = (72.7*altura) - 58;
