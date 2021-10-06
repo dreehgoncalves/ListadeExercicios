@@ -9,19 +9,17 @@ public class ExibaCalculo {
 		
 		// Versão com Message e Input Dialog
 		
-		String num1 = JOptionPane.showInputDialog("Informe primeiro numero:\n");
+		String num1 = JOptionPane.showInputDialog("Informe o primeiro numero");
 		int n1 = Integer.parseInt(num1);
 		
-		String num2 = JOptionPane.showInputDialog("Informe segundo numero:\n");
+		String num2 = JOptionPane.showInputDialog("Informe o segundo numero");
 		int n2 = Integer.parseInt(num2);
 		
-		String num3 = JOptionPane.showInputDialog("Informe terceiro numero:\n");
+		String num3 = JOptionPane.showInputDialog("Informe o terceiro numero");
 		double n3 = Double.parseDouble(num3);
 		
-		double produto = (n1 * 2) * (n2 / 2);
-		
+		double produto = (n1 * 2) * (n2 / 2);		
 		double soma = (n1 * 3) + n3;
-
 		double cubo = Math.pow(n3, 3);
 		
 		
