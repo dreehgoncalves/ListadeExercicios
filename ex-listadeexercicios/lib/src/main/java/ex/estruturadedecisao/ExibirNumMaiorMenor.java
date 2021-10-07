@@ -2,7 +2,7 @@ package ex.estruturadedecisao;
 
 import javax.swing.JOptionPane;
 
-public class ExibirNumeroMaior {
+public class ExibirNumMaiorMenor {
     public static void main(String[] args) {
 
         String n1 = JOptionPane.showInputDialog("Informe o primeiro número");
@@ -24,6 +24,20 @@ public class ExibirNumeroMaior {
 
         if (num3 > num1 && num3 > num2) {
             JOptionPane.showMessageDialog(null, String.format("Número %d é maior", num3));
+        }
+
+        /////////////
+
+        if (num1 < num2 && num1 < num3) {
+            JOptionPane.showMessageDialog(null, String.format("Número %d é menor", num1));
+        }
+
+        if (num2 < num1 && num2 < num3) {
+            JOptionPane.showMessageDialog(null, String.format("Número %d é menor", num2));
+        }
+
+        if (num3 < num1 && num3 < num2) {
+            JOptionPane.showMessageDialog(null, String.format("Número %d é menor", num3));
         }
     }
 }
