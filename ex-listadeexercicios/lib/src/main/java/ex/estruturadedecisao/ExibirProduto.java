@@ -4,9 +4,6 @@ import javax.swing.JOptionPane;
 
 public class ExibirProduto {
     public static void main(String[] args) {
-        // Faça um programa que pergunte o preço de três produtos e informe qual produto
-        // você deve comprar,
-        // sabendo que a decisão é sempre pelo mais barato.
 
         String v1 = JOptionPane.showInputDialog("Informe o primeiro valor");
         double valor1 = Double.parseDouble(v1);
