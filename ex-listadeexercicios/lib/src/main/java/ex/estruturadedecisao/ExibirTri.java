@@ -26,7 +26,7 @@ public class ExibirTri {
                     JOptionPane.showMessageDialog(null, "Essas medidas formam um triângulo equilatero");
                 } else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3) {
                     JOptionPane.showMessageDialog(null, "Essas medidas formam um triângulo isoceles");
-                } else if (lado1 != lado2 && lado2 != lado3) {
+                } else if (lado1 != lado2 && lado2 != lado3 && lado1 != lado3) {
                     JOptionPane.showMessageDialog(null, "Essas medidas formam um triângulo escaleno");
                 }
 
