@@ -8,10 +8,10 @@ public class ExibirTri {
         String l1 = JOptionPane.showInputDialog("Informe a medida do primeiro lado:");
         double lado1 = Double.parseDouble(l1);
 
-        String l2 = JOptionPane.showInputDialog("Informe a medida do primeiro lado:");
+        String l2 = JOptionPane.showInputDialog("Informe a medida do segundo lado:");
         double lado2 = Double.parseDouble(l2);
 
-        String l3 = JOptionPane.showInputDialog("Informe a medida do primeiro lado:");
+        String l3 = JOptionPane.showInputDialog("Informe a medida do terceiro lado:");
         double lado3 = Double.parseDouble(l3);
 
         double soma1 = lado1 + lado2;
