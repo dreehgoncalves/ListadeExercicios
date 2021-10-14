@@ -6,13 +6,13 @@ public class ExibirValorValido {
 
     public static void main(String[] args) {
 
-        while (extracted() == 1) {
+        while (validarNota() == 1) {
             JOptionPane.showMessageDialog(null, "Nota Inválida");
-            extracted();
+            validarNota();
         }
     }
 
-    private static int extracted() {
+    private static int validarNota() {
         String n = JOptionPane.showInputDialog("Informe uma nota entre 0 e 10");
         int nota = Integer.parseInt(n);
         int inv = 0;
