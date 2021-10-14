@@ -81,7 +81,7 @@ public class ExibirCupom {
             }
 
             JOptionPane.showMessageDialog(null, String.format(
-                    "--------------CUPOM FISCAL--------------\nTipo: Alcatra\nQuantidade : %.2f kg\nPreço total: R$ %.2f\nTipo de pagamento: %s\nValor do desconto: R$ %.2f\nPreço com desconto: R$ %.2f",
+                    "--------------CUPOM FISCAL--------------\nTipo: Picanha\nQuantidade : %.2f kg\nPreço total: R$ %.2f\nTipo de pagamento: %s\nValor do desconto: R$ %.2f\nPreço com desconto: R$ %.2f",
                     quilos, valor, op, desconto, valor_t));
 
         }
